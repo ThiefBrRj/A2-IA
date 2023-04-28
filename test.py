@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Caminho para o arquivo do modelo
-modelo_path = os.path.join(os.path.dirname(__file__), 'modelo_treinado.pkl')
+modelo_path = os.path.join(os.getcwd(), 'modelo.pkl')
 
 # Carrega o modelo
 with open(modelo_path, 'rb') as arquivo:
