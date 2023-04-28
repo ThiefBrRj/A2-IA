@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import os
 
 # Caminho para o arquivo do modelo
 modelo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'modelo.pkl')
