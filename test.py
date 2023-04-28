@@ -6,7 +6,8 @@ import os
 from tensorflow import keras
 
 # Caminho para o arquivo do modelo
-modelo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'modelo.pkl')
+#modelo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'modelo.pkl')
+modelo_path = 'modelo.pkl'
 
 # Carrega o modelo
 with open(modelo_path, 'rb') as arquivo:
