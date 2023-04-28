@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Carregando o modelo treinado
-with open('modelo_treinado.pkl', 'rb') as arquivo:
+with open('modelo.pkl', 'rb') as arquivo:
     modelo = pickle.load(arquivo)
 
 # Criando a interface da aplicação
