@@ -3,8 +3,11 @@ import pandas as pd
 import numpy as np
 import pickle
 
-# Carregando o modelo treinado
-with open('/app/A2-IA/modelo_treinado.pkl', 'rb') as arquivo:
+# Caminho para o arquivo do modelo
+modelo_path = os.path.join(os.path.dirname(__file__), 'modelo_treinado.pkl')
+
+# Carrega o modelo
+with open(modelo_path, 'rb') as arquivo:
     modelo = pickle.load(arquivo)
 
 # Criando a interface da aplicação
